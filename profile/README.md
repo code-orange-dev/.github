@@ -46,8 +46,8 @@ All curriculum is **free, open-source, and CC0-licensed**. Every graduate is a p
 | **[curriculum](https://github.com/code-orange-dev/curriculum)** | Full CC0 syllabi for 6 programs: Bitcoin Dojo, rawBit, Decoding Bitcoin, Sovereign Bitcoiner, Privacy Track, Nostr Workshops |
 | **[fellowships](https://github.com/code-orange-dev/fellowships)** | Developer ($500/mo) and Educator ($250/mo) fellowship program — proposal templates, agreements, reporting |
 | **[PR-tracking-dashboard](https://github.com/code-orange-dev/PR-tracking-dashboard)** | Every PR by Code Orange community members to Bitcoin open-source projects, updated monthly |
-| **[impact-report](https://github.com/code-orange-dev/impact-report)** | Developer outcomes, community metrics, and measurable results |
-| **[dev-community](https://github.com/code-orange-dev/dev-community)** | Profiles of 26+ developers trained through our programs |
+| **[impact-report](https://github.com/code-orange-dev/impact-report)** | Developer outcomes, every PR linked, developer journeys, cost-per-PR analysis, quarterly reporting |
+| **[dev-community](https://github.com/code-orange-dev/dev-community)** | Profiles of 24+ developers trained through our programs — 12 active contributors, 12 emerging |
 | **[workshops](https://github.com/code-orange-dev/workshops)** | Slide decks and materials from 60+ Bitcoin workshops |
 
 ---
