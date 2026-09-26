@@ -17,8 +17,10 @@ Code Orange is a Bitcoin-only, open-source developer education program based at 
 **The pipeline:**
 
 ```
-Reading Club → Sovereign Bitcoiner → Bitcoin Dojo → rawBit → Decoding Bitcoin → Fellowship → OSS Contribution
+Workshops & Reading Club → Bitcoin Dojo → rawBit → Decoding Bitcoin → Privacy Track → Review Club → Fellowship → OSS Contribution
 ```
+
+New in Season One: **[The Privacy Sessions](https://github.com/code-orange-dev/curriculum/tree/main/privacy-track)**, 12 drop-in sessions that open with Silent Payments (BIP352). You build a sender and scanner graded against the official test vectors, then review the live Bitcoin Core implementation.
 
 All curriculum is **free, open-source, and CC0-licensed**. Every graduate is a permanent asset for Bitcoin.
 
@@ -26,15 +28,16 @@ All curriculum is **free, open-source, and CC0-licensed**. Every graduate is a p
 
 ### By the Numbers
 
+*PR figures from the [PR tracking dashboard](https://github.com/code-orange-dev/PR-tracking-dashboard), with every link re-verified against GitHub on 26 September 2026 and re-checked weekly by CI.*
+
 | | |
 |---|---|
-| **33+** graduates | from Bitcoin Dojo (Chaincode BOSS) and Decoding Bitcoin cohorts |
-| **18+ PRs opened** | to Bitcoin Core, rust-bitcoin, BDK, LDK, rust-payjoin, Alby, cashu-ts, peer-observer, BlueWallet, and 20+ projects |
-| **12+ PRs merged** | accepted by upstream maintainers into Bitcoin open-source projects |
-| **12 active contributors** | with merged or in-review PRs to Bitcoin FOSS |
-| **12 emerging contributors** | with first PRs expected Q2-Q3 2026 |
-| **60+ workshops** | delivered across 8 countries over 15 months |
-| **574** Discord members | 40+ active daily |
+| **131 PRs merged** | into Bitcoin Core, rust-bitcoin, BDK, LDK, rust-payjoin, Floresta, peer-observer, Silent Payments wallets and 30+ projects, each with a direct link |
+| **155+ PRs opened** | merged + currently under review |
+| **12 active contributors** | with verified merged or in-review work, plus 4 emerging |
+| **33+ graduates** | from Bitcoin Dojo (Chaincode BOSS) and Decoding Bitcoin cohorts |
+| **60+ workshops** | delivered across Bali, Chiang Mai and online |
+| **~700** Discord members | [join us](https://discord.gg/PrHct9eY6Z) |
 | **8 countries** | Indonesia, India, Romania, Nigeria, Kenya, Zambia, Brazil, South Korea |
 
 ---
@@ -43,9 +46,9 @@ All curriculum is **free, open-source, and CC0-licensed**. Every graduate is a p
 
 | Repo | What It Is |
 |------|-----------|
-| **[curriculum](https://github.com/code-orange-dev/curriculum)** | Full CC0 syllabi for 6 programs: Bitcoin Dojo, rawBit, Decoding Bitcoin, Sovereign Bitcoiner, Privacy Track, Nostr Workshops |
-| **[fellowships](https://github.com/code-orange-dev/fellowships)** | Developer ($500/mo) and Educator ($250/mo) fellowship program — proposal templates, agreements, reporting |
-| **[PR-tracking-dashboard](https://github.com/code-orange-dev/PR-tracking-dashboard)** | Every PR by Code Orange community members to Bitcoin open-source projects, updated monthly |
+| **[curriculum](https://github.com/code-orange-dev/curriculum)** | CC0 programs with self-grading labs: Bitcoin Dojo (checked against real mainnet transactions), the Privacy Track (checked against the official BIP352 vectors), rawBit, Decoding Bitcoin, Sovereign Bitcoiner, Nostr Workshops |
+| **[fellowships](https://github.com/code-orange-dev/fellowships)** | Developer ($512/mo) and Educator ($256/mo) fellowships: applications, agreements, reporting |
+| **[PR-tracking-dashboard](https://github.com/code-orange-dev/PR-tracking-dashboard)** | Every PR by Code Orange community members to Bitcoin open-source projects, with links verified weekly by CI |
 | **[impact-report](https://github.com/code-orange-dev/impact-report)** | Developer outcomes, every PR linked, developer journeys, cost-per-PR analysis, quarterly reporting |
 | **[dev-community](https://github.com/code-orange-dev/dev-community)** | Profiles of 24+ developers trained through our programs — 12 active contributors, 12 emerging |
 | **[workshops](https://github.com/code-orange-dev/workshops)** | Slide decks and materials from 60+ Bitcoin workshops |
@@ -54,26 +57,28 @@ All curriculum is **free, open-source, and CC0-licensed**. Every graduate is a p
 
 ### Developer Outcomes
 
-Our graduates don't just learn about Bitcoin — they build it:
+Our graduates don't just learn about Bitcoin, they build it. Merged counts are from the [dashboard](https://github.com/code-orange-dev/PR-tracking-dashboard):
 
-- **Chaitika** — Multiple merged PRs to Silent Payments (BIP352) ecosystem at Bitshala Incubator
-- **Dayvvo** — Merged PRs to Alby (js-sdk, bitcoin-connect) and cashu-ts; Btrust open-source mentee
-- **Gradale** — Merged PR to rust-bitcoin; targeting core-lightning next
-- **Peter** — PRs to Bitcoin Core (C++) and rust-bitcoin; building Kernel-Node
-- **Razor** — 2 merged PRs to peer-observer, Bitcoin P2P network monitoring
-- **Arowolo** — Approved PR to rust-payjoin (BIP77 async Payjoin)
-- **Psychemist** — Merged PRs to BDK Android and BIP375 Go; contributing to LDK
-- **Full dashboard** — [PR-tracking-dashboard](https://github.com/code-orange-dev/PR-tracking-dashboard)
+- **Peter** (30 merged): two **Bitcoin Core** PRs (incl. exposing witness data for Silent Payments scanning), Silent Payments scanning in kernel-node, rust-bitcoinkernel, rust-bitcoin, bdk-ffi
+- **Chaitika** (28): builds [Shroud](https://github.com/CypherCommons/shroud), a Silent Payments (BIP352) mobile wallet
+- **Vaan** (14): rust-payjoin, bdk-cli, bdk_wallet, rust-bitcoin
+- **Diegodev** (14): Lightning gossip-observer visuals, Librería de Satoshi's command-line course
+- **Muhammad** (8): a **Bitcoin Core** PR, bdk_wallet audit fixes, Floresta, rust-bitcoin
+- **Psychemist** (7): LDK, Mastering Taproot, Saving Satoshi
+- **Razor** (6): peer-observer (P2P network monitoring), corepc
+- **Arowolo** (6): rust-payjoin (BIP77 async Payjoin), Mostro
+- **Gradale** (5): rust-bitcoin (constant-time Poly1305), hex-conservative, corepc
+- **Dayvvo** (9, some predating Code Orange), **Alex Xie** (3, OpenTollGate), **Mwihoti** (1, rust-payjoin)
 
 ---
 
 ### Get Involved
 
-**Learn Bitcoin development** — Join our [Discord](https://discord.gg/PrHct9eY6Z) and sign up for the next cohort
+**Learn Bitcoin development**: join our [Discord](https://discord.gg/PrHct9eY6Z), sign up for the next cohort, or drop into a [Privacy Session](https://github.com/code-orange-dev/curriculum/tree/main/privacy-track)
 
-**Teach Bitcoin** — Apply for an [Educator Fellowship](https://github.com/code-orange-dev/fellowships/tree/main/education-fellowship) ($250/mo)
+**Teach Bitcoin** — Apply for an [Educator Fellowship](https://github.com/code-orange-dev/fellowships/tree/main/educator-fellowship) ($256/mo)
 
-**Build Bitcoin** — Apply for a [Developer Fellowship](https://github.com/code-orange-dev/fellowships/tree/main/developer-fellowship) ($500/mo)
+**Build Bitcoin** — Apply for a [Developer Fellowship](https://github.com/code-orange-dev/fellowships/tree/main/developer-fellowship) ($512/mo)
 
 **Support us** — We're funded by grants and community support. Contact fellowship@codeorange.dev
 
