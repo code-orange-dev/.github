@@ -84,4 +84,4 @@ Our graduates don't just learn about Bitcoin, they build it. Merged counts are f
 
 ---
 
-*Founded by [Keypleb](https://x.com/keypleb_) | Based at [Bitcoin House Bali](https://x.com/btchousebali) | Part of [Bitcoin Indonesia](https://bitcoinindonesia.xyz/) | [codeorange.dev](https://codeorange.dev)*
+*Founded by [Keypleb](https://x.com/keypleb) | Based at [Bitcoin House Bali](https://x.com/btchousebali) | Part of [Bitcoin Indonesia](https://bitcoinindonesia.xyz/) | [codeorange.dev](https://codeorange.dev)*
