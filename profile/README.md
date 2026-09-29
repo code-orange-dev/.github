@@ -1,6 +1,6 @@
 # Code Orange Dev School
 
-A Bitcoin-only developer education program based in Canggu, Bali, with most sessions online. We run study cohorts, workshops and meetups for developers and technical Bitcoiners who want to contribute to Bitcoin open-source software. All curriculum is free and CC0-licensed.
+A Bitcoin-only developer education program. Most sessions run online, with some in-person workshops. We run study cohorts, workshops and meetups for developers and technical Bitcoiners who want to contribute to Bitcoin open-source software. All curriculum is free and CC0-licensed.
 
 **Programs:** [Bitcoin Dojo](https://github.com/code-orange-dev/curriculum/tree/main/bitcoin-dojo) · [rawBit](https://github.com/code-orange-dev/curriculum/tree/main/rawbit) · [Decoding Bitcoin](https://github.com/code-orange-dev/curriculum/tree/main/decoding-bitcoin) · [Privacy Track](https://github.com/code-orange-dev/curriculum/tree/main/privacy-track) · [Sovereign Bitcoiner](https://github.com/code-orange-dev/curriculum/tree/main/sovereign-bitcoiner)
 
